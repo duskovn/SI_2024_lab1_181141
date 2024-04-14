@@ -1,0 +1,26 @@
+git clone https://github.com/duskovn/SI_2024_lab1_181141.git
+cd SI_2024_lab1_181141/
+touch 181141.txt
+git add 181141.txt
+touch README.md
+git add README.md
+git commit -m "Initial commit"
+git push origin master
+cd ~/Downloads
+mv SILab1_1.java SILab1_2.java SILab1Main.java ~/Desktop/si_181141/SI_2024_lab1_181141
+cd ~/Desktop/si_181141/SI_2024_lab1_181141
+git add SILab1_1.java SILab1_2.java SILab1Main.java
+git commit -m "Add starter code"
+git push origin master
+git pull origin master
+git checkout -b bug1
+vim SILab1_1.java
+git add SILab_1.java
+git add SILab1_1.java
+git commit -m "Fix wrong condition in filterOddLenghtStrings"
+git push origin bug1
+touch logs.txt 
+git checkout master
+git add logs.txt
+git commit -m "logs commit"
+git push origin master
